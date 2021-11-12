@@ -1,0 +1,29 @@
+.login-container{
+    .login-main-container{
+        padding: 2%;
+        width: 35%;
+        background-color: white;
+        .main-heading{
+            text-align: center;
+        }
+        .fields-container{
+            margin-top: 5%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            input{
+                margin-top: 2%;
+                width: 50%;
+            }
+            button{
+                margin-top: 2%;
+                width: 20%;
+            }
+        }
+        .register-container{
+            span{
+                cursor: pointer;
+            }
+        }
+    }
+}
